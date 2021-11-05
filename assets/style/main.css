@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.navbar-z {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.navbar-z img {
+  height: 36px;
+  border-radius: 50%;
+}
+
+.navbar-z .navbar-nav .active {
+  color: #fed049 !important;
+}
+
+.navbar-z .navbar-nav .contact {
+  color: #ffffff;
+  background-color: #fed049;
+  border-radius: 3em;
+}
+
+.navbar-z .navbar-nav .contact:hover {
+  color: #ffffff;
+  background-color: #6ddccf;
+}
+/*# sourceMappingURL=main.css.map */
