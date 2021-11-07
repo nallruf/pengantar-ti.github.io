@@ -1,6 +1,10 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .navbar-z {
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .navbar-z img {
@@ -8,8 +12,19 @@
   border-radius: 50%;
 }
 
+.navbar-z .navbar-nav li {
+  padding-left: 30px;
+}
+
 .navbar-z .navbar-nav .active {
+  color: #474747;
   border-bottom: 4px solid #fed049;
+  font-weight: 600 !important;
+}
+
+.navbar-z .navbar-nav .nav-link {
+  color: #747474;
+  font-weight: 400;
 }
 
 .navbar-z .navbar-nav .contact {
@@ -21,5 +36,32 @@
 .navbar-z .navbar-nav .contact:hover {
   color: #ffffff;
   background-color: #28df99;
+}
+
+.hero .des {
+  padding-left: 100px;
+}
+
+.hero .des h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.hero .des h1 .yellow {
+  color: #fed049;
+  font-weight: 600 !important;
+}
+
+.hero .des p {
+  color: #828282;
+  font-size: 16px;
+}
+
+.hero .des a {
+  padding: 8px 25px;
+  color: #ffffff;
+  background-color: #fed049;
+  border-radius: 3em;
+  border: 0px;
 }
 /*# sourceMappingURL=main.css.map */

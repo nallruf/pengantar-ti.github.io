@@ -1,17 +1,26 @@
-@import "colors";
-
+@import "var";
+body {
+  font-family: "Poppins", sans-serif;
+}
 .navbar-z {
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
   img {
     height: 36px;
     border-radius: 50%;
   }
   .navbar-nav {
+    li {
+      padding-left: 30px;
+    }
     .active {
-      // color: $yellow !important;
+      color: $black;
       border-bottom: 4px solid $yellow;
-      // font-weight: 500;
+      font-weight: map-get($font-weight, semibold) !important;
+    }
+    .nav-link {
+      color: $gray;
+      font-weight: map-get($font-weight, regular);
     }
     .contact {
       //   a {
@@ -24,6 +33,31 @@
         color: $white;
         background-color: $green;
       }
+    }
+  }
+}
+
+.hero {
+  .des {
+    padding-left: 100px;
+    h1 {
+      font-size: 36px;
+      font-weight: map-get($font-weight, regular);
+      .yellow {
+        color: $yellow;
+        font-weight: map-get($font-weight, semibold) !important;
+      }
+    }
+    p {
+      color: $gray2;
+      font-size: 16px;
+    }
+    a {
+      padding: 8px 25px;
+      color: $white;
+      background-color: $yellow;
+      border-radius: 3em;
+      border: 0px;
     }
   }
 }
