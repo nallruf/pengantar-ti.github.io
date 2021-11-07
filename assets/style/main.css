@@ -9,7 +9,7 @@
 }
 
 .navbar-z .navbar-nav .active {
-  color: #fed049 !important;
+  border-bottom: 4px solid #fed049;
 }
 
 .navbar-z .navbar-nav .contact {
@@ -20,6 +20,6 @@
 
 .navbar-z .navbar-nav .contact:hover {
   color: #ffffff;
-  background-color: #6ddccf;
+  background-color: #28df99;
 }
 /*# sourceMappingURL=main.css.map */

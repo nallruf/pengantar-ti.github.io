@@ -9,7 +9,9 @@
   }
   .navbar-nav {
     .active {
-      color: $yellow !important;
+      // color: $yellow !important;
+      border-bottom: 4px solid $yellow;
+      // font-weight: 500;
     }
     .contact {
       //   a {
@@ -20,7 +22,7 @@
       //   }
       &:hover {
         color: $white;
-        background-color: #6ddccf;
+        background-color: $green;
       }
     }
   }
