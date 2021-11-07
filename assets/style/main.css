@@ -43,11 +43,12 @@ body {
 }
 
 .hero .des h1 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 400;
 }
 
 .hero .des h1 .yellow {
+  font-size: 38px;
   color: #fed049;
   font-weight: 600 !important;
 }
