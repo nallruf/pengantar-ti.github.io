@@ -14,7 +14,8 @@ body {
 }
 .navbar-z {
   // position: ;
-  // background-color: $bg;
+  background-color: $ijo;
+  // opacity: 0.8;
   padding-top: 20px;
   font-size: 16px;
   img {
@@ -43,6 +44,10 @@ body {
     .nav-link {
       color: $white;
       font-weight: map-get($font-weight, regular);
+
+      &:hover {
+        color: $yellow;
+      }
     }
     .contact {
       //   a {

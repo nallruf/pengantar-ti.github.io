@@ -15,6 +15,7 @@ body {
 }
 
 .navbar-z {
+  background-color: #4cc78e;
   padding-top: 20px;
   font-size: 16px;
 }
@@ -48,6 +49,10 @@ body {
 .navbar-z .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: 400;
+}
+
+.navbar-z .navbar-nav .nav-link:hover {
+  color: #fed049;
 }
 
 .navbar-z .navbar-nav .contact {
