@@ -50,7 +50,6 @@ body {
       }
     }
     .contact {
-      //   a {
       color: $white;
       //   padding: 5px 20px;
       background-color: $yellow;
@@ -81,12 +80,23 @@ body {
       color: $gray2;
       font-size: 16px;
     }
-    a {
-      padding: 8px 25px;
-      color: $white;
-      background-color: $ijo;
-      border-radius: 3em;
-      border: 0px;
-    }
+  }
+}
+
+.btn-prm {
+  padding: 8px 25px;
+  color: $white;
+  background-color: $ijo;
+  border-radius: 3em;
+  border: 0px;
+}
+
+.tq {
+  .btn {
+    margin-left: 1em;
+  }
+  .cv {
+    text-decoration: underline;
+    color: $ijo;
   }
 }

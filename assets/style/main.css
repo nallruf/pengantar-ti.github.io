@@ -85,11 +85,20 @@ body {
   font-size: 16px;
 }
 
-.hero .des a {
+.btn-prm {
   padding: 8px 25px;
   color: #ffffff;
   background-color: #4cc78e;
   border-radius: 3em;
   border: 0px;
+}
+
+.tq .btn {
+  margin-left: 1em;
+}
+
+.tq .cv {
+  text-decoration: underline;
+  color: #4cc78e;
 }
 /*# sourceMappingURL=main.css.map */
