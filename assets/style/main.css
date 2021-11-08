@@ -15,7 +15,6 @@ body {
 }
 
 .navbar-z {
-  background-color: #4cc78e;
   padding-top: 20px;
   font-size: 16px;
 }
@@ -26,7 +25,7 @@ body {
 }
 
 .navbar-z .logo {
-  color: #ffffff;
+  color: #474747;
   font-weight: 600;
   font-size: 28px;
   padding-left: 1em;
@@ -41,13 +40,13 @@ body {
 }
 
 .navbar-z .navbar-nav .active {
-  color: #ffffff !important;
+  color: #474747 !important;
   border-bottom: 4px solid #ffffff;
   font-weight: 600 !important;
 }
 
 .navbar-z .navbar-nav .nav-link {
-  color: #ffffff;
+  color: #474747;
   font-weight: 400;
 }
 

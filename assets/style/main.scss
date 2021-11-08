@@ -14,7 +14,7 @@ body {
 }
 .navbar-z {
   // position: ;
-  background-color: $ijo;
+  // background-color: $ijo;
   // opacity: 0.8;
   padding-top: 20px;
   font-size: 16px;
@@ -23,7 +23,7 @@ body {
     border-radius: 50%;
   }
   .logo {
-    color: $white;
+    color: $black;
     font-weight: map-get($font-weight, semibold);
     font-size: 28px;
     padding-left: 1em;
@@ -37,12 +37,12 @@ body {
       padding-left: 30px;
     }
     .active {
-      color: $white !important;
+      color: $black !important;
       border-bottom: 4px solid $white;
       font-weight: map-get($font-weight, semibold) !important;
     }
     .nav-link {
-      color: $white;
+      color: $black;
       font-weight: map-get($font-weight, regular);
 
       &:hover {
