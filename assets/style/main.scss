@@ -2,24 +2,46 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.main-nav {
+  position: absolute;
+  .wave {
+    z-index: 1;
+    // height: 10%;
+  }
+  .navbar-z {
+    z-index: 2;
+  }
+}
 .navbar-z {
+  // position: ;
+  // background-color: $bg;
   padding-top: 20px;
   font-size: 16px;
   img {
     height: 36px;
     border-radius: 50%;
   }
+  .logo {
+    color: $white;
+    font-weight: map-get($font-weight, semibold);
+    font-size: 28px;
+    padding-left: 1em;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
   .navbar-nav {
     li {
       padding-left: 30px;
     }
     .active {
-      color: $black;
-      border-bottom: 4px solid $yellow;
+      color: $white !important;
+      border-bottom: 4px solid $white;
       font-weight: map-get($font-weight, semibold) !important;
     }
     .nav-link {
-      color: $gray;
+      color: $white;
       font-weight: map-get($font-weight, regular);
     }
     .contact {
@@ -30,21 +52,22 @@ body {
       border-radius: 3em;
       //   }
       &:hover {
-        color: $white;
-        background-color: $green;
+        color: $yellow;
+        background-color: $white;
       }
     }
   }
 }
 
 .hero {
+  // background-color: $bg;
   .des {
-    padding-left: 100px;
+    padding-left: 5%;
     h1 {
       font-size: 32px;
-      font-weight: map-get($font-weight, regular);
+      font-weight: map-get($font-weight, medium);
       .yellow {
-        font-size: 38px;
+        font-size: 48px;
         color: $yellow;
         font-weight: map-get($font-weight, semibold) !important;
       }
@@ -56,7 +79,7 @@ body {
     a {
       padding: 8px 25px;
       color: $white;
-      background-color: $yellow;
+      background-color: $ijo;
       border-radius: 3em;
       border: 0px;
     }

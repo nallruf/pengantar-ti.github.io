@@ -2,6 +2,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.main-nav {
+  position: absolute;
+}
+
+.main-nav .wave {
+  z-index: 1;
+}
+
+.main-nav .navbar-z {
+  z-index: 2;
+}
+
 .navbar-z {
   padding-top: 20px;
   font-size: 16px;
@@ -12,18 +24,29 @@ body {
   border-radius: 50%;
 }
 
+.navbar-z .logo {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 28px;
+  padding-left: 1em;
+}
+
+.navbar-z .logo:hover {
+  color: #fed049;
+}
+
 .navbar-z .navbar-nav li {
   padding-left: 30px;
 }
 
 .navbar-z .navbar-nav .active {
-  color: #474747;
-  border-bottom: 4px solid #fed049;
+  color: #ffffff !important;
+  border-bottom: 4px solid #ffffff;
   font-weight: 600 !important;
 }
 
 .navbar-z .navbar-nav .nav-link {
-  color: #747474;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -34,21 +57,21 @@ body {
 }
 
 .navbar-z .navbar-nav .contact:hover {
-  color: #ffffff;
-  background-color: #28df99;
+  color: #fed049;
+  background-color: #ffffff;
 }
 
 .hero .des {
-  padding-left: 100px;
+  padding-left: 5%;
 }
 
 .hero .des h1 {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero .des h1 .yellow {
-  font-size: 38px;
+  font-size: 48px;
   color: #fed049;
   font-weight: 600 !important;
 }
@@ -61,7 +84,7 @@ body {
 .hero .des a {
   padding: 8px 25px;
   color: #ffffff;
-  background-color: #fed049;
+  background-color: #4cc78e;
   border-radius: 3em;
   border: 0px;
 }
