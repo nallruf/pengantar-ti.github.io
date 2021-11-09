@@ -104,6 +104,7 @@ body {
   // padding: 0 0 0 30px;
   background-color: $gray;
   h1 {
+    font-size: 36px;
     margin-bottom: 50px;
   }
   .role-item {
@@ -129,6 +130,59 @@ body {
 
     p {
       color: $white;
+    }
+  }
+}
+
+.yellow {
+  color: $yellow;
+}
+.project {
+  h1 {
+    font-size: 36px;
+  }
+  .project-item {
+    margin: 10px;
+    padding: 20px 20px;
+    background-color: $gray;
+    border-radius: 20px;
+    img {
+      border: 0;
+    }
+    .btn-tag {
+      padding: 5px;
+      background-color: $yellow;
+    }
+  }
+}
+
+footer {
+  color: $white;
+  .bg-foot {
+    border-top: 5px solid $gray;
+    background-color: $ijo;
+  }
+  .btn-prm {
+    background-color: $yellow;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .copyright {
+    height: 20px;
+    .white {
+      p {
+        margin-top: 1em;
+        color: $black;
+      }
+      background-color: $white;
+    }
+    .yellow {
+      background-color: $yellow;
+    }
+    .black {
+      background-color: $black;
     }
   }
 }

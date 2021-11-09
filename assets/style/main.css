@@ -113,6 +113,7 @@ body {
 }
 
 .role h1 {
+  font-size: 36px;
   margin-bottom: 50px;
 }
 
@@ -141,5 +142,67 @@ body {
 
 .role .role-prm p {
   color: #ffffff;
+}
+
+.yellow {
+  color: #fed049;
+}
+
+.project h1 {
+  font-size: 36px;
+}
+
+.project .project-item {
+  margin: 10px;
+  padding: 20px 20px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+}
+
+.project .project-item img {
+  border: 0;
+}
+
+.project .project-item .btn-tag {
+  padding: 5px;
+  background-color: #fed049;
+}
+
+footer {
+  color: #ffffff;
+}
+
+footer .bg-foot {
+  border-top: 5px solid #f7f7f7;
+  background-color: #4cc78e;
+}
+
+footer .btn-prm {
+  background-color: #fed049;
+}
+
+footer .btn-prm:hover {
+  color: #ffffff;
+}
+
+footer .copyright {
+  height: 20px;
+}
+
+footer .copyright .white {
+  background-color: #ffffff;
+}
+
+footer .copyright .white p {
+  margin-top: 1em;
+  color: #474747;
+}
+
+footer .copyright .yellow {
+  background-color: #fed049;
+}
+
+footer .copyright .black {
+  background-color: #474747;
 }
 /*# sourceMappingURL=main.css.map */
