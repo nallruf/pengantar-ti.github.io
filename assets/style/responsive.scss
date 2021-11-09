@@ -5,11 +5,16 @@
     background-color: $ijo;
   }
   .logo {
-    font-size: 18px;
+    font-size: 14px;
+    padding-left: 0;
   }
   .role {
     .role-item {
-      margin: 0 0 0 10px;
+      margin: 10px 10px;
+    }
+
+    .role-prm {
+      margin: 10px 10px;
     }
   }
 }
