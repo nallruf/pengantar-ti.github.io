@@ -92,11 +92,43 @@ body {
 }
 
 .tq {
+  // position: relative;
   .btn {
     margin-left: 1em;
   }
   .cv {
     text-decoration: underline;
     color: $ijo;
+  }
+  .wave {
+    // position: absolute;
+    // top: -150%;
+    // z-index: 1;
+  }
+  .main-tq {
+    // z-index: 2;
+  }
+}
+
+.role {
+  margin-top: 20px;
+  padding: 20px 0 0 30px;
+  background-color: $gray;
+
+  .role-item {
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: $white;
+    h4 {
+      font-size: 34px;
+      font-weight: map-get($font-weight, medium);
+    }
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: $gray2;
+      font-weight: map-get($font-weight, regular);
+    }
   }
 }

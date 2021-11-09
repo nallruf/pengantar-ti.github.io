@@ -101,4 +101,29 @@ body {
   text-decoration: underline;
   color: #4cc78e;
 }
+
+.role {
+  margin-top: 20px;
+  padding: 20px 0 0 30px;
+  background-color: #f7f7f7;
+}
+
+.role .role-item {
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.role .role-item h4 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.role .role-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #828282;
+  font-weight: 400;
+}
 /*# sourceMappingURL=main.css.map */
