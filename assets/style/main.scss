@@ -6,16 +6,12 @@ body {
   position: absolute;
   .wave {
     z-index: 1;
-    // height: 10%;
   }
   .navbar-z {
     z-index: 2;
   }
 }
 .navbar-z {
-  // position: ;
-  // background-color: $ijo;
-  // opacity: 0.8;
   padding-top: 20px;
   font-size: 16px;
   img {
@@ -38,7 +34,7 @@ body {
     }
     .active {
       color: $black !important;
-      border-bottom: 4px solid $white;
+      border-bottom: 4px solid $yellow;
       font-weight: map-get($font-weight, semibold) !important;
     }
     .nav-link {
@@ -51,7 +47,6 @@ body {
     }
     .contact {
       color: $white;
-      //   padding: 5px 20px;
       background-color: $yellow;
       border-radius: 3em;
       //   }
@@ -64,7 +59,6 @@ body {
 }
 
 .hero {
-  // background-color: $bg;
   .des {
     padding-left: 5%;
     h1 {
@@ -89,10 +83,13 @@ body {
   background-color: $ijo;
   border-radius: 3em;
   border: 0px;
+  &:hover {
+    color: $ijo;
+    background-color: $black;
+  }
 }
 
 .tq {
-  // position: relative;
   .btn {
     margin-left: 1em;
   }
@@ -100,26 +97,21 @@ body {
     text-decoration: underline;
     color: $ijo;
   }
-  .wave {
-    // position: absolute;
-    // top: -150%;
-    // z-index: 1;
-  }
-  .main-tq {
-    // z-index: 2;
-  }
 }
 
 .role {
   margin-top: 20px;
-  padding: 20px 0 0 30px;
+  // padding: 0 0 0 30px;
   background-color: $gray;
-
+  h1 {
+    margin-bottom: 50px;
+  }
   .role-item {
     margin-right: 50px;
     padding: 20px;
     border-radius: 20px;
     background-color: $white;
+
     h4 {
       font-size: 34px;
       font-weight: map-get($font-weight, medium);
@@ -129,6 +121,14 @@ body {
       font-size: 14px;
       color: $gray2;
       font-weight: map-get($font-weight, regular);
+    }
+  }
+  .role-prm {
+    @extend .role-item;
+    background-color: $ijo !important;
+
+    p {
+      color: $white;
     }
   }
 }

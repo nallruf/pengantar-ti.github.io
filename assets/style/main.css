@@ -41,7 +41,7 @@ body {
 
 .navbar-z .navbar-nav .active {
   color: #474747 !important;
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid #fed049;
   font-weight: 600 !important;
 }
 
@@ -93,6 +93,11 @@ body {
   border: 0px;
 }
 
+.btn-prm:hover {
+  color: #4cc78e;
+  background-color: #474747;
+}
+
 .tq .btn {
   margin-left: 1em;
 }
@@ -104,26 +109,37 @@ body {
 
 .role {
   margin-top: 20px;
-  padding: 20px 0 0 30px;
   background-color: #f7f7f7;
 }
 
-.role .role-item {
+.role h1 {
+  margin-bottom: 50px;
+}
+
+.role .role-item, .role .role-prm {
   margin-right: 50px;
   padding: 20px;
   border-radius: 20px;
   background-color: #ffffff;
 }
 
-.role .role-item h4 {
+.role .role-item h4, .role .role-prm h4 {
   font-size: 34px;
   font-weight: 500;
 }
 
-.role .role-item p {
+.role .role-item p, .role .role-prm p {
   margin-top: 10px;
   font-size: 14px;
   color: #828282;
   font-weight: 400;
+}
+
+.role .role-prm {
+  background-color: #4cc78e !important;
+}
+
+.role .role-prm p {
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
